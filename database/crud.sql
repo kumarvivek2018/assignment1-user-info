@@ -16,6 +16,8 @@ SET time_zone = "+00:00";
 --
 -- Table structure for table `users`
 --
+CREATE DATABASE IF NOT EXISTS `crud` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `crud`;
 
 CREATE TABLE `users` (
   `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
